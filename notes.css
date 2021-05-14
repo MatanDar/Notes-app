@@ -1,0 +1,112 @@
+body{
+    background-image: url('tile.jpg');
+    background-size: auto;
+    
+}
+
+.board{
+    margin-top: 2%;
+}
+
+
+.taskBar{
+    width: 45%;
+    background-image: url('formbg.jpg');
+    background-size: auto;
+    margin-left: 30%;
+}
+
+.rowNote{
+    display: inline;
+}
+
+.btns{
+    margin-left: 16rem;
+
+}
+
+.note{
+
+    position: relative;
+    top: 0%;
+    left: 0.5rem;
+    display: inline-block;
+    background-image: url("notebg.png");
+    background-repeat: no-repeat;
+    width: 8.5rem;
+    height: 13rem;
+    margin-left: 2%;
+    -webkit-animation: fadeIn ease 0.5s;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+#text{
+    display: inline;
+    font-size: 1rem;
+    padding: 15px 0rem 0px 19px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 24rem;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#date{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+#time{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+.text{
+    position: relative;
+    top: 10%;
+    right: 4%;
+    width: 90%;
+    height: 53%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: cursive;
+}
+.text:hover{
+    overflow-y: auto;
+    overflow-x: auto;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
+.date{
+    position: relative;
+    top: 15px;
+    left: -92px;
+    font-size: 77%;
+    font-family: fantasy;
+}
+.time{
+    position: relative;
+    top: 35px;
+    left: -50px;
+    font-size: 77%;
+    font-family: fantasy;
+}
+
+    .note .icon{
+        visibility: hidden;
+        background-color: rgb(253, 60, 60);
+        border: tomato;
+        border-radius: 8px;
+        color: rgb(254, 255, 153);
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+    }
+    .note:hover .icon{
+        visibility: visible;
+    }
+
+ 
